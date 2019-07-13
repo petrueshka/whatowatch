@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.redList li {
+    list-style: none;
+    height: 300px;
+    width: 23%;
+    background: crimson;
+    display: inline-block; 
+    
+}
+
+ul.redList {
+   overflow: hidden;
+    text-align: center;
+   -webkit-padding-start: 0.1px;
+        -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 0;
+}
+
+li.innerZero { 
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+    
+li.innerOne {
+    margin: 0 1% 0 2%;
+  
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+li.innerTwo{
+    margin: 0 2% 0 1%;
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+li.innerFour {  
+
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+} 
+button {
+        position: absolute;
+    right: 57%;
+    bottom: 344px;
+}
+
+@media only screen and (max-width: 778px){
+    .redList li {
+    height: 300px;
+    width: 49%;   
+        
+} 
+       li.innerOne, li.innerTwo {
+    margin: 0;
+}
+}
